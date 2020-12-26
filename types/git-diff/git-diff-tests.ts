@@ -11,6 +11,7 @@ const options: GitDiffOptions = {
     forceFake: true,
     save: true,
     wordDiff: true,
+    noHeaders: true,
 };
 
 gitDiff('same', 'same', options);
